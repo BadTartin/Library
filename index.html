@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Library</title>
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+    <div id="shelf">
+        
+
+    </div>
+    <div id="newbookbutton">
+    <button id="button" onclick="getBookInput()">Add New Book</button>
+    </div>
+
+    <form id="newbookform">
+      <div>
+        <label>Title:</label>
+        <input type="text" name="title">
+      </div>
+      <div>
+        <label>Author:</label>
+        <input type="text" name="author">
+      </div>
+      <div>
+        <label>Pages:</label>
+        <input type="number" name="pages">
+      </div>
+      <div>
+        <label>Read:</label>
+        <input type="checkbox" name="read">
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
